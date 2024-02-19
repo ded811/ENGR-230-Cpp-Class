@@ -21,7 +21,7 @@ int main()
             y = log(1/(1-x));                               // does the calulation y(x)=ln(1/(1-x))
             cout << "Ln(1/ (1 - " << x << ")) = " << y ;    // outputs the input and output
         }
-        cout << "Enter the value of x (999 to quit):";      // askes for the new value of x, if sutable number program will restart
+        cout << "Enter the value of x (999 to quit): ";      // askes for the new value of x, if sutable number program will restart
         cin >> x;                                           // sets new value of x
     }
 return 0;
