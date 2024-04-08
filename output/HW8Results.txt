@@ -1,0 +1,8 @@
+Joe Schmo Numerical Integration
+Integration of y = sin(x)/x from x = -3 to x = 3
+Traps Area
+10 3.67651
+20 3.69212
+40 3.69601
+80 3.69698
+160 3.69722
