@@ -15,12 +15,12 @@ const int MAXVALUES = 100; // Max number of values
 int main() {
     double x[MAXVALUES];
     double y[MAXVALUES];
-    int n = 0;
-    double m = 0;
-    double b = 0;
-    double r2 = 0;
-    double avgT = 0;
-    double avgR = 0;
+    int n = 0;  // Number of data points
+    double m = 0;   // Slope of best fit line
+    double b = 0;   // y-intercept of best fit line
+    double r2 = 0;  // Coefficient of determination
+    double avgT = 0;    
+    double avgR = 0;    
     ifstream infile("HW10resist.txt");
     if (!infile) {
         cout << "Error opening File." << endl; // Display error message if file opening fails
